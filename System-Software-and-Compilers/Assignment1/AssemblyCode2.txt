@@ -1,0 +1,19 @@
+START        400
+S1  DS          12
+READ  B
+MOVEM      BREG, B
+MOVER       BREG, '7'
+MOVER      CREG, '8'
+COMP          CREG, R
+BC                 EQ, S1
+MOVER       AREG, '1'
+ORIGIN 430
+MOVER       DREG, '8'
+LTORG
+PRINT          D
+STOP
+X    EQU      D
+D    DS       3
+B    DC       5
+R    DS       9
+END

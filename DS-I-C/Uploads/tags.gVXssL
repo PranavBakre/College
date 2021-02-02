@@ -1,0 +1,185 @@
+accept	Assignment_no_1_203419.c	/^void accept(char*);\/\/Accept the string$/;"	p	typeref:typename:void	file:
+display	Assignment_no_1_203419.c	/^void display(char*);\/\/Display the string$/;"	p	typeref:typename:void	file:
+len	Assignment_no_1_203419.c	/^int len(char *);\/\/Calculate the length of the string$/;"	p	typeref:typename:int	file:
+copy	Assignment_no_1_203419.c	/^void copy(char *,char *);\/\/Copy the data of one string to another$/;"	p	typeref:typename:void	file:
+concat	Assignment_no_1_203419.c	/^void concat(char*,char*);\/\/Concatenate two strings$/;"	p	typeref:typename:void	file:
+rev	Assignment_no_1_203419.c	/^void rev(char *);\/\/Reverse a string$/;"	p	typeref:typename:void	file:
+pal	Assignment_no_1_203419.c	/^int pal(char *);\/\/Check palindrome$/;"	p	typeref:typename:int	file:
+equal	Assignment_no_1_203419.c	/^int equal(char*,char *);\/\/Compare two strings$/;"	p	typeref:typename:int	file:
+sub	Assignment_no_1_203419.c	/^int sub(char*,char*);\/\/Check substring$/;"	p	typeref:typename:int	file:
+main	Assignment_no_1_203419.c	/^int main()$/;"	f	typeref:typename:int
+sub	Assignment_no_1_203419.c	/^int sub(char *str1, char *str2)\/\/Check substring using pointers$/;"	f	typeref:typename:int
+equal	Assignment_no_1_203419.c	/^int equal(char *str,char *str2)$/;"	f	typeref:typename:int
+pal	Assignment_no_1_203419.c	/^int pal(char * str)$/;"	f	typeref:typename:int
+accept	Assignment_no_1_203419.c	/^void accept(char *str)$/;"	f	typeref:typename:void
+display	Assignment_no_1_203419.c	/^void display(char * str)$/;"	f	typeref:typename:void
+concat	Assignment_no_1_203419.c	/^void concat(char* dest,char* src)$/;"	f	typeref:typename:void
+rev	Assignment_no_1_203419.c	/^void rev(char *str)$/;"	f	typeref:typename:void
+copy	Assignment_no_1_203419.c	/^void copy(char *src, char *dest)$/;"	f	typeref:typename:void
+len	Assignment_no_1_203419.c	/^int len(char * strp)$/;"	f	typeref:typename:int
+student	Assignment_no_3_203419.c	/^struct student$/;"	s	file:
+id	Assignment_no_3_203419.c	/^	int id;$/;"	m	struct:student	typeref:typename:int	file:
+name	Assignment_no_3_203419.c	/^	char name[100],city[100];$/;"	m	struct:student	typeref:typename:char[100]	file:
+city	Assignment_no_3_203419.c	/^	char name[100],city[100];$/;"	m	struct:student	typeref:typename:char[100][100]	file:
+mks	Assignment_no_3_203419.c	/^	double mks;$/;"	m	struct:student	typeref:typename:double	file:
+std	Assignment_no_3_203419.c	/^typedef struct student std;$/;"	t	typeref:struct:student	file:
+accept	Assignment_no_3_203419.c	/^void accept(std*);$/;"	p	typeref:typename:void	file:
+display	Assignment_no_3_203419.c	/^void display(std*);$/;"	p	typeref:typename:void	file:
+dispid	Assignment_no_3_203419.c	/^void dispid(std[],int);$/;"	p	typeref:typename:void	file:
+linsrch	Assignment_no_3_203419.c	/^void linsrch(std[],int,int);\/\/Linear Search$/;"	p	typeref:typename:void	file:
+binsrch	Assignment_no_3_203419.c	/^void binsrch(std[],int,int);\/\/Binary Search$/;"	p	typeref:typename:void	file:
+bbsort	Assignment_no_3_203419.c	/^void bbsort(std[], int);\/\/BubbleSort$/;"	p	typeref:typename:void	file:
+selsort	Assignment_no_3_203419.c	/^void selsort(std[], int);\/\/Selection Sort$/;"	p	typeref:typename:void	file:
+insrtsort	Assignment_no_3_203419.c	/^void insrtsort(std[], int);\/\/Insertion Sort$/;"	p	typeref:typename:void	file:
+main	Assignment_no_3_203419.c	/^int main(void) {$/;"	f	typeref:typename:int
+dispid	Assignment_no_3_203419.c	/^void dispid(std s[],int n)$/;"	f	typeref:typename:void
+insrtsort	Assignment_no_3_203419.c	/^void insrtsort(std s[],int n)$/;"	f	typeref:typename:void
+selsort	Assignment_no_3_203419.c	/^void selsort(std s[],int n)$/;"	f	typeref:typename:void
+bbsort	Assignment_no_3_203419.c	/^  void bbsort(std s[], int n)$/;"	f	typeref:typename:void
+binsrch	Assignment_no_3_203419.c	/^void binsrch(std s[],int n ,int skey)$/;"	f	typeref:typename:void
+linsrch	Assignment_no_3_203419.c	/^void linsrch(std s[], int n,int skey)$/;"	f	typeref:typename:void
+display	Assignment_no_3_203419.c	/^void display(std* s)$/;"	f	typeref:typename:void
+accept	Assignment_no_3_203419.c	/^void accept(std* s)$/;"	f	typeref:typename:void
+max	Assignment_no_4_203419.c	/^#define max /;"	d	file:
+stack	Assignment_no_4_203419.c	/^struct stack$/;"	s	file:
+data	Assignment_no_4_203419.c	/^  char data [max][max];$/;"	m	struct:stack	typeref:typename:char[][]	file:
+top	Assignment_no_4_203419.c	/^  int top;$/;"	m	struct:stack	typeref:typename:int	file:
+stack	Assignment_no_4_203419.c	/^typedef struct stack stack;$/;"	t	typeref:struct:stack	file:
+charstack	Assignment_no_4_203419.c	/^struct charstack$/;"	s	file:
+data	Assignment_no_4_203419.c	/^  char data[max];$/;"	m	struct:charstack	typeref:typename:char[]	file:
+top	Assignment_no_4_203419.c	/^  int top;$/;"	m	struct:charstack	typeref:typename:int	file:
+cstack	Assignment_no_4_203419.c	/^typedef struct charstack cstack;$/;"	t	typeref:struct:charstack	file:
+isemp	Assignment_no_4_203419.c	/^int isemp(stack*);$/;"	p	typeref:typename:int	file:
+isfull	Assignment_no_4_203419.c	/^int isfull(stack*);$/;"	p	typeref:typename:int	file:
+push	Assignment_no_4_203419.c	/^void push(stack* , char[]);$/;"	p	typeref:typename:void	file:
+pop	Assignment_no_4_203419.c	/^void pop(stack*,char*);$/;"	p	typeref:typename:void	file:
+display	Assignment_no_4_203419.c	/^void display(stack*);$/;"	p	typeref:typename:void	file:
+stackemp	Assignment_no_4_203419.c	/^int stackemp(cstack*);$/;"	p	typeref:typename:int	file:
+stackfull	Assignment_no_4_203419.c	/^int stackfull(cstack*);$/;"	p	typeref:typename:int	file:
+cpush	Assignment_no_4_203419.c	/^void cpush(cstack*,char);$/;"	p	typeref:typename:void	file:
+cpop	Assignment_no_4_203419.c	/^char cpop(cstack*);$/;"	p	typeref:typename:char	file:
+cdisplay	Assignment_no_4_203419.c	/^void cdisplay(cstack*);$/;"	p	typeref:typename:void	file:
+postin	Assignment_no_4_203419.c	/^void postin(stack*,char[]);$/;"	p	typeref:typename:void	file:
+postpre	Assignment_no_4_203419.c	/^void postpre(stack*,char[]);$/;"	p	typeref:typename:void	file:
+prepost	Assignment_no_4_203419.c	/^void prepost(stack*,char[]);$/;"	p	typeref:typename:void	file:
+prein	Assignment_no_4_203419.c	/^void prein(stack*,char[]);$/;"	p	typeref:typename:void	file:
+inpre	Assignment_no_4_203419.c	/^void inpre(cstack*,char []);$/;"	p	typeref:typename:void	file:
+inpost	Assignment_no_4_203419.c	/^void inpost(cstack*,char[]);$/;"	p	typeref:typename:void	file:
+ICP	Assignment_no_4_203419.c	/^int ICP(char ,int);$/;"	p	typeref:typename:int	file:
+ISP	Assignment_no_4_203419.c	/^int ISP(char ,int);$/;"	p	typeref:typename:int	file:
+main	Assignment_no_4_203419.c	/^int main()$/;"	f	typeref:typename:int
+push	Assignment_no_4_203419.c	/^void push(stack* s, char elem[])$/;"	f	typeref:typename:void
+pop	Assignment_no_4_203419.c	/^void pop(stack* s,char * elemx)$/;"	f	typeref:typename:void
+display	Assignment_no_4_203419.c	/^void display(stack *s)$/;"	f	typeref:typename:void
+postin	Assignment_no_4_203419.c	/^void postin(stack *s,char elem[])$/;"	f	typeref:typename:void
+postpre	Assignment_no_4_203419.c	/^void postpre(stack* s,char elem[])$/;"	f	typeref:typename:void
+prepost	Assignment_no_4_203419.c	/^void prepost(stack* s,char elem[])$/;"	f	typeref:typename:void
+prein	Assignment_no_4_203419.c	/^void prein(stack *s, char elem[])$/;"	f	typeref:typename:void
+inpre	Assignment_no_4_203419.c	/^void inpre(cstack *s ,char elem[])\/\/Infix to prefix$/;"	f	typeref:typename:void
+inpost	Assignment_no_4_203419.c	/^void inpost(cstack* s, char elem[])$/;"	f	typeref:typename:void
+ICP	Assignment_no_4_203419.c	/^int ICP(char ch,int n)\/\/Incoming priority$/;"	f	typeref:typename:int
+ISP	Assignment_no_4_203419.c	/^int ISP(char ch,int n)\/\/In stack priority$/;"	f	typeref:typename:int
+cdisplay	Assignment_no_4_203419.c	/^void cdisplay(cstack* s)$/;"	f	typeref:typename:void
+cpop	Assignment_no_4_203419.c	/^char cpop(cstack* s)$/;"	f	typeref:typename:char
+cpush	Assignment_no_4_203419.c	/^void cpush(cstack* s,char elem)$/;"	f	typeref:typename:void
+stackfull	Assignment_no_4_203419.c	/^int stackfull(cstack* s)$/;"	f	typeref:typename:int
+stackemp	Assignment_no_4_203419.c	/^int stackemp(cstack* s)$/;"	f	typeref:typename:int
+acceptarray	Assignment_no_2_203419.c	/^void acceptarray(int a,int b,int[a][b] );$/;"	p	typeref:typename:void	file:
+display	Assignment_no_2_203419.c	/^void display(int r,int c,int m[r][c]);$/;"	p	typeref:typename:void	file:
+findn	Assignment_no_2_203419.c	/^int findn(int r,int c,int m[r][c]);$/;"	p	typeref:typename:int	file:
+fillsprse	Assignment_no_2_203419.c	/^void fillsprse(int [][3],int n, int r , int c ,int m[r][c]);$/;"	p	typeref:typename:void	file:
+sprsedisp	Assignment_no_2_203419.c	/^void sprsedisp(int [][3],int n);$/;"	p	typeref:typename:void	file:
+st	Assignment_no_2_203419.c	/^void st(int [][3],int ,int [][3]);$/;"	p	typeref:typename:void	file:
+ft	Assignment_no_2_203419.c	/^void ft(int [][3], int,int [][3]);$/;"	p	typeref:typename:void	file:
+main	Assignment_no_2_203419.c	/^int main()$/;"	f	typeref:typename:int
+ft	Assignment_no_2_203419.c	/^void ft(int m[][3], int n,int t[][3])$/;"	f	typeref:typename:void
+st	Assignment_no_2_203419.c	/^void st(int m[][3],int n,int t [][3])$/;"	f	typeref:typename:void
+acceptarray	Assignment_no_2_203419.c	/^void acceptarray(int r,int c,int m[r][c])$/;"	f	typeref:typename:void
+display	Assignment_no_2_203419.c	/^void display(int r,int c,int m[r][c])$/;"	f	typeref:typename:void
+findn	Assignment_no_2_203419.c	/^int findn(int r,int c,int m[r][c])$/;"	f	typeref:typename:int
+fillsprse	Assignment_no_2_203419.c	/^void fillsprse(int s[][3],int n, int r,int c,int m[r][c])$/;"	f	typeref:typename:void
+sprsedisp	Assignment_no_2_203419.c	/^void sprsedisp(int s[][3],int n)$/;"	f	typeref:typename:void
+namax	Assignment_no_5_203419CQ.c	/^#define namax /;"	d	file:
+max	Assignment_no_5_203419CQ.c	/^#define max /;"	d	file:
+order	Assignment_no_5_203419CQ.c	/^struct order$/;"	s	file:
+name	Assignment_no_5_203419CQ.c	/^  char name[namax];$/;"	m	struct:order	typeref:typename:char[]	file:
+oid	Assignment_no_5_203419CQ.c	/^  int oid;$/;"	m	struct:order	typeref:typename:int	file:
+address	Assignment_no_5_203419CQ.c	/^  char address[namax];$/;"	m	struct:order	typeref:typename:char[]	file:
+ordername	Assignment_no_5_203419CQ.c	/^  char ordername[namax];$/;"	m	struct:order	typeref:typename:char[]	file:
+mobno	Assignment_no_5_203419CQ.c	/^  long long mobno;$/;"	m	struct:order	typeref:typename:long long	file:
+order	Assignment_no_5_203419CQ.c	/^typedef struct order order;$/;"	t	typeref:struct:order	file:
+pizzaparlour	Assignment_no_5_203419CQ.c	/^struct pizzaparlour$/;"	s	file:
+order	Assignment_no_5_203419CQ.c	/^  order order[max+1];$/;"	m	struct:pizzaparlour	typeref:typename:order[]	file:
+r	Assignment_no_5_203419CQ.c	/^  int r,f;$/;"	m	struct:pizzaparlour	typeref:typename:int	file:
+f	Assignment_no_5_203419CQ.c	/^  int r,f;$/;"	m	struct:pizzaparlour	typeref:typename:int	file:
+pp	Assignment_no_5_203419CQ.c	/^typedef struct pizzaparlour pp;$/;"	t	typeref:struct:pizzaparlour	file:
+enqueue	Assignment_no_5_203419CQ.c	/^void enqueue(pp*,order);$/;"	p	typeref:typename:void	file:
+dequeue	Assignment_no_5_203419CQ.c	/^void dequeue(pp*,order*);$/;"	p	typeref:typename:void	file:
+display	Assignment_no_5_203419CQ.c	/^void display(pp);$/;"	p	typeref:typename:void	file:
+isfull	Assignment_no_5_203419CQ.c	/^int isfull(pp);$/;"	p	typeref:typename:int	file:
+isemp	Assignment_no_5_203419CQ.c	/^int isemp(pp);$/;"	p	typeref:typename:int	file:
+addorder	Assignment_no_5_203419CQ.c	/^void addorder(order*);$/;"	p	typeref:typename:void	file:
+disorder	Assignment_no_5_203419CQ.c	/^void disorder(order);$/;"	p	typeref:typename:void	file:
+main	Assignment_no_5_203419CQ.c	/^int main()$/;"	f	typeref:typename:int
+isemp	Assignment_no_5_203419CQ.c	/^int isemp(pp p)$/;"	f	typeref:typename:int
+isfull	Assignment_no_5_203419CQ.c	/^int isfull(pp p)$/;"	f	typeref:typename:int
+enqueue	Assignment_no_5_203419CQ.c	/^void enqueue(pp* p1,order o1)$/;"	f	typeref:typename:void
+dequeue	Assignment_no_5_203419CQ.c	/^void dequeue(pp* p2,order* o2)$/;"	f	typeref:typename:void
+display	Assignment_no_5_203419CQ.c	/^void display(pp p)$/;"	f	typeref:typename:void
+addorder	Assignment_no_5_203419CQ.c	/^void addorder(order * o)$/;"	f	typeref:typename:void
+disorder	Assignment_no_5_203419CQ.c	/^void disorder(order o)$/;"	f	typeref:typename:void
+namax	Assignment_no_5_203419Q.c	/^#define namax /;"	d	file:
+max	Assignment_no_5_203419Q.c	/^#define max /;"	d	file:
+order	Assignment_no_5_203419Q.c	/^struct order$/;"	s	file:
+name	Assignment_no_5_203419Q.c	/^  char name[namax];$/;"	m	struct:order	typeref:typename:char[]	file:
+oid	Assignment_no_5_203419Q.c	/^  int oid;$/;"	m	struct:order	typeref:typename:int	file:
+address	Assignment_no_5_203419Q.c	/^  char address[namax];$/;"	m	struct:order	typeref:typename:char[]	file:
+ordername	Assignment_no_5_203419Q.c	/^  char ordername[namax];$/;"	m	struct:order	typeref:typename:char[]	file:
+mobno	Assignment_no_5_203419Q.c	/^  long long mobno;$/;"	m	struct:order	typeref:typename:long long	file:
+order	Assignment_no_5_203419Q.c	/^typedef struct order order;$/;"	t	typeref:struct:order	file:
+pizzaparlour	Assignment_no_5_203419Q.c	/^struct pizzaparlour$/;"	s	file:
+order	Assignment_no_5_203419Q.c	/^  order order[max];$/;"	m	struct:pizzaparlour	typeref:typename:order[]	file:
+r	Assignment_no_5_203419Q.c	/^  int r,f;$/;"	m	struct:pizzaparlour	typeref:typename:int	file:
+f	Assignment_no_5_203419Q.c	/^  int r,f;$/;"	m	struct:pizzaparlour	typeref:typename:int	file:
+pp	Assignment_no_5_203419Q.c	/^typedef struct pizzaparlour pp;$/;"	t	typeref:struct:pizzaparlour	file:
+enqueue	Assignment_no_5_203419Q.c	/^void enqueue(pp*,order);$/;"	p	typeref:typename:void	file:
+dequeue	Assignment_no_5_203419Q.c	/^void dequeue(pp*,order*);$/;"	p	typeref:typename:void	file:
+display	Assignment_no_5_203419Q.c	/^void display(pp);$/;"	p	typeref:typename:void	file:
+isfull	Assignment_no_5_203419Q.c	/^int isfull(pp);$/;"	p	typeref:typename:int	file:
+isemp	Assignment_no_5_203419Q.c	/^int isemp(pp);$/;"	p	typeref:typename:int	file:
+addorder	Assignment_no_5_203419Q.c	/^void addorder(order*);$/;"	p	typeref:typename:void	file:
+disorder	Assignment_no_5_203419Q.c	/^void disorder(order);$/;"	p	typeref:typename:void	file:
+main	Assignment_no_5_203419Q.c	/^int main()$/;"	f	typeref:typename:int
+isemp	Assignment_no_5_203419Q.c	/^int isemp(pp p)$/;"	f	typeref:typename:int
+isfull	Assignment_no_5_203419Q.c	/^int isfull(pp p)$/;"	f	typeref:typename:int
+enqueue	Assignment_no_5_203419Q.c	/^void enqueue(pp* p1,order o1)$/;"	f	typeref:typename:void
+dequeue	Assignment_no_5_203419Q.c	/^void dequeue(pp* p2,order* o2)$/;"	f	typeref:typename:void
+display	Assignment_no_5_203419Q.c	/^void display(pp p)$/;"	f	typeref:typename:void
+addorder	Assignment_no_5_203419Q.c	/^void addorder(order * o)$/;"	f	typeref:typename:void
+disorder	Assignment_no_5_203419Q.c	/^void disorder(order o)$/;"	f	typeref:typename:void
+max	Assignment_no_6_203419.c	/^#define max /;"	d	file:
+node	Assignment_no_6_203419.c	/^struct node$/;"	s	file:
+data	Assignment_no_6_203419.c	/^  int data;$/;"	m	struct:node	typeref:typename:int	file:
+next	Assignment_no_6_203419.c	/^  struct node *next;$/;"	m	struct:node	typeref:struct:node *	file:
+node	Assignment_no_6_203419.c	/^typedef struct node node;$/;"	t	typeref:struct:node	file:
+create	Assignment_no_6_203419.c	/^int create(node *);$/;"	p	typeref:typename:int	file:
+delete	Assignment_no_6_203419.c	/^int delete(node *);$/;"	p	typeref:typename:int	file:
+display	Assignment_no_6_203419.c	/^void display(node *);$/;"	p	typeref:typename:void	file:
+displayall	Assignment_no_6_203419.c	/^void displayall(node*[]);$/;"	p	typeref:typename:void	file:
+length	Assignment_no_6_203419.c	/^int length(node *);$/;"	p	typeref:typename:int	file:
+insertbypos	Assignment_no_6_203419.c	/^int insertbypos(node *);$/;"	p	typeref:typename:int	file:
+deletebypos	Assignment_no_6_203419.c	/^int deletebypos(node *);$/;"	p	typeref:typename:int	file:
+sort	Assignment_no_6_203419.c	/^int sort(node *);$/;"	p	typeref:typename:int	file:
+merge	Assignment_no_6_203419.c	/^void merge(node *, node *);$/;"	p	typeref:typename:void	file:
+reverse	Assignment_no_6_203419.c	/^int reverse(node *);$/;"	p	typeref:typename:int	file:
+main	Assignment_no_6_203419.c	/^int main()$/;"	f	typeref:typename:int
+create	Assignment_no_6_203419.c	/^int create(node *header)$/;"	f	typeref:typename:int
+delete	Assignment_no_6_203419.c	/^int delete(node * header)$/;"	f	typeref:typename:int
+display	Assignment_no_6_203419.c	/^void display(node *header)$/;"	f	typeref:typename:void
+displayall	Assignment_no_6_203419.c	/^void displayall(node *header[])$/;"	f	typeref:typename:void
+length	Assignment_no_6_203419.c	/^int length(node * header)$/;"	f	typeref:typename:int
+insertbypos	Assignment_no_6_203419.c	/^int insertbypos(node *header)$/;"	f	typeref:typename:int
+deletebypos	Assignment_no_6_203419.c	/^int deletebypos(node * header)$/;"	f	typeref:typename:int
+reverse	Assignment_no_6_203419.c	/^int reverse(node *header)$/;"	f	typeref:typename:int
+sort	Assignment_no_6_203419.c	/^int sort(node * header)$/;"	f	typeref:typename:int
+merge	Assignment_no_6_203419.c	/^void merge(node * header,node * header2)$/;"	f	typeref:typename:void

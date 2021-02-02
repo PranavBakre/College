@@ -1,0 +1,63 @@
+int rowterm[m[0][1]],startpos[m[0][1]],i,v;
+  int numcols=m[0][0];
+  int numrows=m[0][1];
+  for(i=0;i<numrows;i++)
+    {
+      rowterm[i]=0;
+    }
+  startpos[0]=1;
+  for(i=1;i<=n-1;i++)
+    {
+      v=m[i][1];
+      rowterm[v]++;
+    }
+  for(i=1;i<numrows;i++)
+    {
+      startpos[i]=startpos[i-1]+rowterm[i-1];
+    }
+  t[0][0]=numrows;
+  t[0][1]=numcols;
+  t[0][2]=n-1;
+  for(i=1;i<n;i++)
+    {
+      t[startpos[m[i][1]]][0]=m[i][1];
+      t[startpos[m[i][1]]][1]=m[i][0];
+      t[startpos[m[i][1]]][2]=m[i][2];
+      startpos[m[i][1]]++;
+    }
+
+
+
+
+
+
+
+
+  int rowTerms[m[0][1]],startingPos[m[0][1]];
+  int numCols=m[0][1],numTerms=m[0][2];
+
+  t[0][0]=numCols;
+  t[0][1]=m[0][0];
+  t[0][2]=numTerms;
+
+  if(numTerms>0)
+  {
+    for(int i=0;i<numCols;i++)
+      rowTerms[i]=0;
+
+    for(int i=1;i<=numTerms;i++)
+      rowTerms[m[i][1]]++;
+
+    startingPos[0]=1;
+
+     for(int i=1;i<numCols;i++)
+       startingPos[i]=startingPos[i-1]+rowTerms[i-1];
+
+     for(int i=1;i<=numTerms;i++)
+     {
+       int j=startingPos[m[i][1]]++;
+       t[j][0]=m[i][1];
+       t[j][1]=m[i][0];
+       t[j][2]=m[i][2];
+     }
+  }
